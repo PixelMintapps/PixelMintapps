@@ -1,4 +1,4 @@
-# PixelMintapps
+﻿# PixelMintapps
 PixelMint Official Website
 
 ````````
@@ -7,7 +7,7 @@ PixelMint Official Website
 
 A professional multi-page website showcasing PixelMint's mobile applications and services.
 
-## ?? Design Theme
+## 🎨 Design Theme
 
 The website uses the **Matte Blue and Gold** theme consistent with the Reward Whiz app branding:
 - Primary Blue: `#1e3a5f` (Matte Blue)
@@ -15,29 +15,28 @@ The website uses the **Matte Blue and Gold** theme consistent with the Reward Wh
 - Gold: `#d4af37`
 - Gold Light: `#f4d03f`
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 PixelMint/
-??? index.html              # Home page with Hero, Apps, Process sections
-??? blog.html               # Blog page with Monetag banner spaces
-??? styles.css              # Custom styles and theme
-??? script.js               # Interactive features and animations
-??? README.md               # This file
-??? MOBILE_RESPONSIVE.md    # Mobile responsiveness documentation
+├── index.html      # Home page with Hero, Apps, Process sections
+├── blog.html       # Blog page with Monetag banner spaces
+├── styles.css      # Custom styles and theme
+├── script.js       # Interactive features and animations
+└── README.md       # This file
 ```
 
-## ?? Features
+## 🚀 Features
 
 ### Home Page (index.html)
 - **Hero Section**: Eye-catching headline with call-to-action buttons
 - **Our Apps Section**: 3 premium app cards showcasing:
-  - Reward Whiz (your flagship app with featured badge)
+  - Reward Whiz (your flagship app)
   - Placeholder for App 2
   - Placeholder for App 3
 - **Process Section**: 3-step methodology (Design, Develop, Deploy)
 - **Contact Section**: Simple call-to-action
-- **Responsive Navigation**: Mobile-friendly hamburger menu
+- **Responsive Navigation**: Mobile-friendly menu
 
 ### Blog Page (blog.html)
 - **Blog Grid**: Multiple blog post cards
@@ -48,32 +47,14 @@ PixelMint/
 - **Newsletter Signup**: Email subscription form
 - **Blog List Items**: Additional articles in list format
 
-## ?? Tech Stack
+## 🎯 Tech Stack
 
 - **HTML5**: Semantic markup
 - **CSS3**: Custom styles with CSS variables
 - **Tailwind CSS**: CDN for rapid styling
 - **Vanilla JavaScript**: No heavy frameworks for instant load times
 
-## ?? Mobile Responsive
-
-The website is **fully mobile responsive** with:
-- ? **Typography Scaling**: Hero text scales from 7xl (desktop) to 1.8rem (mobile)
-- ? **Grid to Column**: 3-column cards automatically stack on mobile (<768px)
-- ? **Hamburger Menu**: Touch-friendly navigation for mobile users
-- ? **Finger-Friendly**: All buttons minimum 44px height (iOS/Android standard)
-- ? **Optimized Padding**: 5% horizontal padding on mobile (vs 10% desktop)
-- ? **No Horizontal Scroll**: Clean, contained layout on all devices
-
-### Responsive Breakpoints:
-- **Desktop**: >1024px - Full 3-column layout
-- **Tablet**: 768px-1024px - Adjusted spacing
-- **Mobile**: <768px - Single column, scaled typography
-- **Small Mobile**: <480px - Further optimized
-
-See `MOBILE_RESPONSIVE.md` for detailed implementation.
-
-## ?? How to Use
+## 📝 How to Use
 
 ### 1. Open the Website
 Simply open `index.html` in your browser. No build process required!
@@ -130,7 +111,7 @@ To adjust the color scheme, edit `styles.css`:
 }
 ```
 
-## ?? Customization Tips
+## 🎨 Customization Tips
 
 ### Adding More Apps
 Copy an existing app card in `index.html` and paste it in the grid:
@@ -149,28 +130,21 @@ The website uses Heroicons via SVG. Replace the `<svg>` code with your own icons
 - [Font Awesome](https://fontawesome.com/)
 - Custom SVG icons
 
-## ?? Responsive Design
+## 📱 Responsive Design
 
 The website is fully responsive with breakpoints:
 - Mobile: < 768px
 - Tablet: 768px - 1024px
 - Desktop: > 1024px
 
-### Mobile Testing
-Test your website on:
-- **Chrome DevTools**: Press `Ctrl+Shift+M` (Windows) or `Cmd+Shift+M` (Mac)
-- **Firefox**: Press `Ctrl+Shift+M` (Windows) or `Cmd+Shift+M` (Mac)
-- **Real Devices**: iPhone, Android phones, tablets
-
-## ? Performance
+## ⚡ Performance
 
 - **No Build Process**: Deploy directly
 - **CDN Tailwind**: Fast global delivery
 - **Minimal JavaScript**: Only essential interactions
 - **Optimized Animations**: Hardware-accelerated CSS
-- **Mobile First**: Optimized for touch devices
 
-## ?? Deployment
+## 🌐 Deployment
 
 ### Option 1: GitHub Pages
 1. Push to GitHub repository
@@ -190,7 +164,7 @@ Test your website on:
 ### Option 4: Traditional Hosting
 Upload all files via FTP to your web host.
 
-## ?? Browser Support
+## 🔧 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -198,14 +172,14 @@ Upload all files via FTP to your web host.
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## ?? License
+## 📄 License
 
-� 2024 PixelMint. All rights reserved.
+© 2024 PixelMint. All rights reserved.
 
-## ?? Support
+## 🤝 Support
 
 For questions or support, contact: contact@pixelmint.app
 
 ---
 
-**Built with ?? by PixelMint - Crafting the Future of Mobile Rewards**
+**Built with ❤️ by PixelMint - Crafting the Future of Mobile Rewards**

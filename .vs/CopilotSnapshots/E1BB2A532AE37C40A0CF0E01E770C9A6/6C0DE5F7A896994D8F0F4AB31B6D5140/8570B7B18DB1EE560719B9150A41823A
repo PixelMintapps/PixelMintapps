@@ -1,4 +1,4 @@
-# PixelMintapps
+﻿# PixelMintapps
 PixelMint Official Website
 
 ````````
@@ -7,7 +7,7 @@ PixelMint Official Website
 
 A professional multi-page website showcasing PixelMint's mobile applications and services.
 
-## ?? Design Theme
+## 🎨 Design Theme
 
 The website uses the **Matte Blue and Gold** theme consistent with the Reward Whiz app branding:
 - Primary Blue: `#1e3a5f` (Matte Blue)
@@ -15,19 +15,19 @@ The website uses the **Matte Blue and Gold** theme consistent with the Reward Wh
 - Gold: `#d4af37`
 - Gold Light: `#f4d03f`
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 PixelMint/
-??? index.html              # Home page with Hero, Apps, Process sections
-??? blog.html               # Blog page with Monetag banner spaces
-??? styles.css              # Custom styles and theme
-??? script.js               # Interactive features and animations
-??? README.md               # This file
-??? MOBILE_RESPONSIVE.md    # Mobile responsiveness documentation
+├── index.html              # Home page with Hero, Apps, Process sections
+├── blog.html               # Blog page with Monetag banner spaces
+├── styles.css              # Custom styles and theme
+├── script.js               # Interactive features and animations
+├── README.md               # This file
+└── MOBILE_RESPONSIVE.md    # Mobile responsiveness documentation
 ```
 
-## ?? Features
+## 🚀 Features
 
 ### Home Page (index.html)
 - **Hero Section**: Eye-catching headline with call-to-action buttons
@@ -48,22 +48,22 @@ PixelMint/
 - **Newsletter Signup**: Email subscription form
 - **Blog List Items**: Additional articles in list format
 
-## ?? Tech Stack
+## 🎯 Tech Stack
 
 - **HTML5**: Semantic markup
 - **CSS3**: Custom styles with CSS variables
 - **Tailwind CSS**: CDN for rapid styling
 - **Vanilla JavaScript**: No heavy frameworks for instant load times
 
-## ?? Mobile Responsive
+## 📱 Mobile Responsive
 
 The website is **fully mobile responsive** with:
-- ? **Typography Scaling**: Hero text scales from 7xl (desktop) to 1.8rem (mobile)
-- ? **Grid to Column**: 3-column cards automatically stack on mobile (<768px)
-- ? **Hamburger Menu**: Touch-friendly navigation for mobile users
-- ? **Finger-Friendly**: All buttons minimum 44px height (iOS/Android standard)
-- ? **Optimized Padding**: 5% horizontal padding on mobile (vs 10% desktop)
-- ? **No Horizontal Scroll**: Clean, contained layout on all devices
+- ✅ **Typography Scaling**: Hero text scales from 7xl (desktop) to 1.8rem (mobile)
+- ✅ **Grid to Column**: 3-column cards automatically stack on mobile (<768px)
+- ✅ **Hamburger Menu**: Touch-friendly navigation for mobile users
+- ✅ **Finger-Friendly**: All buttons minimum 44px height (iOS/Android standard)
+- ✅ **Optimized Padding**: 5% horizontal padding on mobile (vs 10% desktop)
+- ✅ **No Horizontal Scroll**: Clean, contained layout on all devices
 
 ### Responsive Breakpoints:
 - **Desktop**: >1024px - Full 3-column layout
@@ -73,7 +73,7 @@ The website is **fully mobile responsive** with:
 
 See `MOBILE_RESPONSIVE.md` for detailed implementation.
 
-## ?? How to Use
+## 📝 How to Use
 
 ### 1. Open the Website
 Simply open `index.html` in your browser. No build process required!
@@ -130,7 +130,7 @@ To adjust the color scheme, edit `styles.css`:
 }
 ```
 
-## ?? Customization Tips
+## 🎨 Customization Tips
 
 ### Adding More Apps
 Copy an existing app card in `index.html` and paste it in the grid:
@@ -149,7 +149,7 @@ The website uses Heroicons via SVG. Replace the `<svg>` code with your own icons
 - [Font Awesome](https://fontawesome.com/)
 - Custom SVG icons
 
-## ?? Responsive Design
+## 📱 Responsive Design
 
 The website is fully responsive with breakpoints:
 - Mobile: < 768px
@@ -162,7 +162,7 @@ Test your website on:
 - **Firefox**: Press `Ctrl+Shift+M` (Windows) or `Cmd+Shift+M` (Mac)
 - **Real Devices**: iPhone, Android phones, tablets
 
-## ? Performance
+## ⚡ Performance
 
 - **No Build Process**: Deploy directly
 - **CDN Tailwind**: Fast global delivery
@@ -170,7 +170,7 @@ Test your website on:
 - **Optimized Animations**: Hardware-accelerated CSS
 - **Mobile First**: Optimized for touch devices
 
-## ?? Deployment
+## 🌐 Deployment
 
 ### Option 1: GitHub Pages
 1. Push to GitHub repository
@@ -190,7 +190,7 @@ Test your website on:
 ### Option 4: Traditional Hosting
 Upload all files via FTP to your web host.
 
-## ?? Browser Support
+## 🔧 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -198,14 +198,14 @@ Upload all files via FTP to your web host.
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## ?? License
+## 📄 License
 
-� 2024 PixelMint. All rights reserved.
+© 2024 PixelMint. All rights reserved.
 
-## ?? Support
+## 🤝 Support
 
 For questions or support, contact: contact@pixelmint.app
 
 ---
 
-**Built with ?? by PixelMint - Crafting the Future of Mobile Rewards**
+**Built with ❤️ by PixelMint - Crafting the Future of Mobile Rewards**

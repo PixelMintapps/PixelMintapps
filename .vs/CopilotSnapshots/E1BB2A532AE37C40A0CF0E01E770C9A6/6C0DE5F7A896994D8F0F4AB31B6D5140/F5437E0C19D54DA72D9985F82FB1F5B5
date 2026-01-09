@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --matte-blue: #1e3a5f;
     --dark-blue: #0f172a;
     --gold: #d4af37;
@@ -54,13 +54,12 @@ html {
     --tw-gradient-to: var(--gold-light);
 }
 
-/* Buttons - Finger Friendly */
+/* Buttons */
 .btn-primary {
     background: linear-gradient(135deg, var(--gold), var(--gold-light));
     color: var(--slate-900);
     font-weight: 600;
     padding: 1rem 2rem;
-    min-height: 44px;
     border-radius: 0.5rem;
     transition: all 0.3s ease;
     display: inline-block;
@@ -68,7 +67,6 @@ html {
     border: none;
     cursor: pointer;
     position: relative;
-    text-align: center;
 }
 
 .btn-primary:hover {
@@ -114,14 +112,12 @@ html {
     color: white;
     font-weight: 600;
     padding: 1rem 2rem;
-    min-height: 44px;
     border-radius: 0.5rem;
     border: 2px solid var(--gold);
     transition: all 0.3s ease;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    text-align: center;
 }
 
 .btn-secondary:hover {
@@ -402,98 +398,10 @@ html {
     background: var(--gold-light);
 }
 
-/* ========================================
-   MOBILE RESPONSIVE STYLES
-   ======================================== */
-
-/* Tablet Breakpoint (768px - 1024px) */
-@media (max-width: 1024px) {
-    .container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    
-    .process-number {
-        font-size: 2.5rem;
-    }
-}
-
-/* Mobile Breakpoint (below 768px) */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-    /* Typography Scaling */
-    h1 {
-        font-size: 1.8rem !important;
-        line-height: 1.2;
-    }
-    
-    h2 {
-        font-size: 1.5rem !important;
-    }
-    
-    h3 {
-        font-size: 1.25rem !important;
-    }
-    
-    p {
-        font-size: 0.95rem;
-    }
-    
-    /* Reduce horizontal padding from 10% to 5% */
-    .container {
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-    }
-    
-    section {
-        padding-left: 1.25rem !important;
-        padding-right: 1.25rem !important;
-    }
-    
-    /* Hero Section Mobile */
-    section.min-h-screen {
-        min-height: auto;
-        padding-top: 6rem;
-        padding-bottom: 3rem;
-    }
-    
-    section.min-h-screen h1 {
-        font-size: 1.8rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    section.min-h-screen p {
-        font-size: 1rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-    
-    /* Button Adjustments */
-    .btn-primary,
-    .btn-secondary {
-        width: 100%;
-        padding: 0.875rem 1.5rem;
-        font-size: 0.95rem;
-    }
-    
-    /* Grid to Column Layout - Force single column on mobile */
-    .grid.md\:grid-cols-3,
-    .grid.md\:grid-cols-2 {
-        grid-template-columns: 1fr !important;
-        gap: 1.5rem;
-    }
-    
-    /* App Cards Mobile */
-    .app-card {
-        padding: 1.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    .app-card-featured {
-        transform: scale(1) !important;
-        margin-bottom: 1rem;
-    }
-    
-    .app-card-featured:hover {
-        transform: translateY(-4px) scale(1) !important;
+    .process-number {
+        font-size: 2rem;
     }
     
     .app-icon {
@@ -501,159 +409,12 @@ html {
         height: 64px;
     }
     
-    .featured-badge {
-        font-size: 0.6rem;
-        padding: 0.35rem 0.6rem;
+    .app-card-featured {
+        transform: scale(1);
     }
     
-    /* Process Cards Mobile */
-    .process-card {
-        padding: 1.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    .process-number {
-        font-size: 2rem;
-    }
-    
-    .process-icon svg {
-        width: 2.5rem !important;
-        height: 2.5rem !important;
-    }
-    
-    /* Blog Cards Mobile */
-    .blog-card {
-        margin-bottom: 1.5rem;
-    }
-    
-    .blog-image {
-        height: 150px;
-    }
-    
-    .blog-list-item {
-        padding: 1rem;
-    }
-    
-    .blog-list-item:hover {
-        transform: translateX(4px);
-    }
-    
-    .blog-list-item .w-full.md\:w-48 {
-        width: 100% !important;
-        margin-bottom: 1rem;
-    }
-    
-    /* Navigation Mobile - Ensure hamburger works */
-    nav .container {
-        padding: 1rem 1.25rem;
-    }
-    
-    nav .w-10.h-10 {
-        width: 2.5rem !important;
-        height: 2.5rem !important;
-    }
-    
-    nav .text-2xl {
-        font-size: 1.25rem !important;
-    }
-    
-    #mobile-menu {
-        padding-bottom: 1rem;
-    }
-    
-    #mobile-menu a {
-        padding: 0.75rem 0;
-        font-size: 1rem;
-    }
-    
-    /* Footer Mobile */
-    footer {
-        padding: 1.5rem 1.25rem;
-    }
-    
-    footer .flex.flex-col {
-        gap: 1rem;
-    }
-    
-    footer .flex.space-x-6 {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-    }
-    
-    /* Sections Padding */
-    section.py-20 {
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important;
-    }
-    
-    section.pt-32 {
-        padding-top: 6rem !important;
-    }
-    
-    /* Newsletter Form Mobile */
-    form.flex.flex-col input,
-    form.flex.flex-col button {
-        width: 100%;
-        font-size: 0.95rem;
-    }
-    
-    /* Monetag Banner Mobile */
-    .monetag-banner {
-        padding: 1.5rem !important;
-    }
-    
-    /* Feature Items Mobile */
-    .feature-item {
-        padding: 0.625rem;
-        gap: 0.5rem;
-    }
-    
-    .feature-item svg {
-        width: 1.125rem !important;
-        height: 1.125rem !important;
-    }
-    
-    .feature-item span {
-        font-size: 0.875rem;
-    }
-}
-
-/* Small Mobile Breakpoint (below 480px) */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem !important;
-    }
-    
-    h2 {
-        font-size: 1.3rem !important;
-    }
-    
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    
-    section {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-    }
-    
-    .app-card,
-    .process-card,
-    .blog-card,
-    .blog-list-item {
-        padding: 1.25rem;
-    }
-    
-    .btn-primary,
-    .btn-secondary {
-        padding: 0.75rem 1.25rem;
-        font-size: 0.875rem;
-    }
-    
-    nav .text-2xl {
-        font-size: 1.125rem !important;
+    .app-card-featured:hover {
+        transform: translateY(-8px) scale(1);
     }
 }
 
@@ -672,12 +433,4 @@ a:focus, button:focus, input:focus {
 ::-moz-selection {
     background-color: var(--gold);
     color: var(--slate-900);
-}
-
-/* Touch-friendly tap targets */
-@media (hover: none) and (pointer: coarse) {
-    a, button, input, select, textarea {
-        min-height: 44px;
-        min-width: 44px;
-    }
 }
